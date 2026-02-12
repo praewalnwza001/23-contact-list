@@ -1,15 +1,16 @@
 {
-  "name": "23-contact-list",
+  "name": "simple-nodejs-cicd-example",
   "version": "1.0.0",
-  "description": "Contact List",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Build Success'"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "engines": {
-    "node": ">=14.x"
+    "express": "^4.17.1"
   }
 }
