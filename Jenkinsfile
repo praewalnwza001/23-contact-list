@@ -5,7 +5,7 @@ pipeline {
     }
 
     environment {
-        VERCEL_TOKEN = credentials('DevOps23-vercel-token')
+        VERCEL_TOKEN = credentials('DevOps23-Quiz1')
     }
 
     stages {
